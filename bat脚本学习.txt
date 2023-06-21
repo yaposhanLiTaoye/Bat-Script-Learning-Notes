@@ -26,6 +26,9 @@ bug，笔者就曾因为在一个if语句的括号里加了一个::xxx的注释�
 
 在命令notepad a.txt前加start可以打开文件后直接返回到bat脚本的下一句
 
+在bat脚本中运行powershell命令时，有时候遇到有双引号不好处理的时候，可以采取如下方式
+echo  command  | powershell -c -
+
 【第二章  字符串】
 %var:~a[,n]%  从第a位往后最多截取n个字符，若不指定参数n则截取到最后一位
 
